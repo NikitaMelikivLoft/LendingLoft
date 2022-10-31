@@ -16,7 +16,7 @@ router.post('/', (req, res, next) => {
   if (!req.body.name || !req.body.email || !req.body.message) {
 
     req.flash('info', "Пожайлуста заполните ввсе поля)!")
-    res.redirect('/#form');
+    res.redirect('/');
     return
   }
 
@@ -33,10 +33,10 @@ router.post('/', (req, res, next) => {
   transporter.sendMail(mailOptions, function (error, info) {
     if (error) {
       req.flash('info', error.message)
-      res.redirect('/#formerr');
+      res.redirect('/#err');
     } else {
       req.flash('info', "Вы успешно отправили письмо")
-      res.redirect('/#form');
+      res.redirect('/');
     }
   })
 })

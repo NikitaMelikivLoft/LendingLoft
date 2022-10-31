@@ -1,19 +1,19 @@
 {
   "skills": {
     "age": {
-      "number": "3",
+      "number": "11",
       "text": "Возраст начала занятий на скрипке"
     },
     "concerts": {
-      "number": "2",
+      "number": "22",
       "text": "Концертов отыграл"
     },
     "cities": {
-      "number": "1",
+      "number": "333",
       "text": "Максимальное число городов в туре"
     },
     "years": {
-      "number": "4",
+      "number": "444",
       "text": "Лет на сцене в качестве скрипача"
     }
   },
@@ -67,6 +67,11 @@
       "src": "assets\\img\\products\\imgonline-com-ua-Resize-Dj324m0vIOn9xgA.jpg",
       "name": "opencart",
       "price": "222"
+    },
+    {
+      "src": "assets\\img\\products\\chart.png",
+      "name": "Domiks_gta",
+      "price": "31312"
     }
   ]
 }
